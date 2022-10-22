@@ -2,11 +2,17 @@
 
 This is a simple documentation, to publish a Flutter Web application on GitHub pages and show/share it with friends and colleagues.
 
-## First step:
+## :one: Installation
+
+<dl><dd><dl><dd>
 
 Installation of Flutter. Simply follow the steps under https://docs.flutter.dev/get-started/install for our system.
 
-## Second step:
+</dd></dl></dd></dl>
+
+## :two: Development
+
+<dl><dd><dl><dd>
 
 Create a new Flutter project. This contains a demo application, which also is published under this repository:
 
@@ -21,7 +27,11 @@ cd we_publish_flutter
 flutter run -d chrome
 ````
 
-## Third step:
+</dd></dl></dd></dl>
+
+## :three: Build
+
+<dl><dd><dl><dd>
 
 Building the web application, in building the HTML/JS files from our Dart/Flutter files:
 
@@ -41,9 +51,17 @@ This creates the artifacts in the folder ./build/web.
 
 We copy now all the files from ./build/web to ./docs (create the folder if it does not exist). 
 
-### This finishes the development part, let now publish it :smile:
+</dd></dl></dd></dl>
 
-## First step:
+***
+
+This finishes the development part, let now publish it :smile:
+
+***
+
+## :one: Initialize
+
+<dl><dd><dl><dd>
 
 Creating a GitHub account and/or public repository (https://github.com/). Follow the instructions from GitHub to initialize the project with GIT:
 
@@ -58,7 +76,11 @@ git push -u origin main
 
 All files are now pushed to GitHub.
 
-## Second step:
+</dd></dl></dd></dl>
+
+## :two: Publish
+
+<dl><dd><dl><dd>
 
 Now we publish the web pages from the folder /docs
 
@@ -85,11 +107,19 @@ Now under *Actions* we can follow the build:
 
 ![](https://github.com/dartisan-lu/we_publish_flutter/blob/main/images/screenshot_settings.png?raw=true)
 
-## Third step:
+</dd></dl></dd></dl>
+
+## :three: Access
+
+<dl><dd><dl><dd>
 
 Congratulation, we published our page. We can access it now, by our domain / repos name, in my case: https://dartisan-lu.github.io/we_publish_flutter/
 
-## Bonus step:
+</dd></dl></dd></dl>
+
+## :information_source: Cleaning
+
+<dl><dd><dl><dd>
 
 If you want to clean the statistics of the project, 
 
@@ -108,6 +138,10 @@ docs/** linguist-vendored
 ````
 
 Now the project should be 100% Dart.
+
+</dd></dl></dd></dl>
+
+***
 
 That's it, never was it so easy to create and publish a Web Application. 
 
